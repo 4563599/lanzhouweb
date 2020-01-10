@@ -20,5 +20,5 @@ module.exports = {
     'lcov',
     'text-summary'
   ],
-  testURL: 'http://localhost/'
+  testURL: 'http://119.3.5.25:8080'
 }

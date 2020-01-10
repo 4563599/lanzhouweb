@@ -579,7 +579,7 @@ export default {
       });
       // 初始化绘制全国地图配置
       var option = {
-        backgroundColor: "#404a59",
+        backgroundColor: "#FFFFFF",
         title: {
           text: "Echarts3 中国地图下钻至县级",
           subtext: "三级下钻",
@@ -667,11 +667,15 @@ export default {
             },
             itemStyle: {
               normal: {
-                areaColor: "#323c48",
-                borderColor: "dodgerblue"
+                 borderColor: '#F3B329'
               },
               emphasis: {
-                areaColor: "darkorange"
+                areaColor: '#F3B329',
+                shadowOffsetX: 0,
+                shadowOffsetY: 0,
+                shadowBlur: 20,
+                borderWidth: 0,
+                shadowColor: 'rgba(0, 0, 0, 0.5)'
               }
             },
             zoom: 1.2
